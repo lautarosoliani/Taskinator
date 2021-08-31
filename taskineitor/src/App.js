@@ -1,4 +1,5 @@
 import "./styles.css"
+import ListaDeTareas from "./ListaDeTareas"
 import Filtros from "./components/Filtros"
 import Header from "./components/Header"
 import Resultados from "./components/Resultados"
@@ -10,6 +11,7 @@ export default function App() {
             <Header />
             <Filtros />
             <Resultados />
+            {/* <ListaDeTareas /> */}
         </>
     )
 }
