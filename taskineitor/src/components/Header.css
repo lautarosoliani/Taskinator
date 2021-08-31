@@ -1,0 +1,9 @@
+.header {
+    background-color: rgba(64, 10, 201, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.contenedor-header {
+    display: flex;
+    justify-content: space-evenly;
+}

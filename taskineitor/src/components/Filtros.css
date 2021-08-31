@@ -1,0 +1,15 @@
+.filtros {
+    background-color: rgba(64, 68, 201, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.contenedor-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-inputs {
+    display: flex;
+    justify-content: center;
+}
