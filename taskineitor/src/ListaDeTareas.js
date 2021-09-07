@@ -1,4 +1,4 @@
-let ListaDeTareas = [
+export const listaDeTareas = [
     {
         ide: 1,
         titulo: `lavar los platos`,
@@ -7,34 +7,32 @@ let ListaDeTareas = [
     },
     {
         ide: 2,
-        titulo: `lavar los platos`,
+        titulo: `Tarea 1`,
         completada: false,
         fechaCrada: `08/31/2021`,
     },
     {
         ide: 3,
-        titulo: `lavar los platos`,
+        titulo: `Tarea 2`,
         completada: false,
         fechaCrada: `08/31/2021`,
     },
     {
         ide: 4,
-        titulo: `lavar los platos`,
+        titulo: `Tarea 3`,
         completada: false,
         fechaCrada: `08/31/2021`,
     },
     {
         ide: 5,
-        titulo: `lavar los platos`,
+        titulo: `Tarea 4`,
         completada: false,
         fechaCrada: `08/31/2021`,
     },
     {
         ide: 6,
-        titulo: `lavar los platos`,
+        titulo: `Tarea 5`,
         completada: false,
         fechaCrada: `08/31/2021`,
     },
 ]
-
-export default ListaDeTareas
