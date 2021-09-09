@@ -1,5 +1,6 @@
 import "./Filtros.css"
 import React from "react"
+import Select from "./sub-components/Select"
 
 export const Filtros = () => {
     return (
@@ -10,6 +11,7 @@ export const Filtros = () => {
                 <div className="contenedor-inputs">
                     From: <input type="date"></input>
                     To: <input type="date" />
+                    <Select />
                 </div>
             </div>
         </>
