@@ -9,16 +9,16 @@ const Select = () => {
 
     return (
         <>
-            <select name="categorias" id="categorias">
-                <option value="Incompleta">Incompleta</option>
-                <option value="Completada">Completada</option>
+            <select onChange={handleState} value={selectstate}>
+                <option value="not finished">Not Finished</option>
+                <option value="completed">Completed</option>
             </select>
             <select name="estado de tarea" id="categorias">
-                <option value="Organizacion">Organizacion</option>
-                <option value="Casa">Casa</option>
-                <option value="Negocio">Negocio</option>
-                <option value="Salud">Salud</option>
-                <option value="Estudios">Estudios</option>
+                <option value="organization">Organization</option>
+                <option value="home">Home</option>
+                <option value="business">Business</option>
+                <option value="health">Health</option>
+                <option value="studies">Studies</option>
             </select>
         </>
     )
