@@ -3,6 +3,10 @@ import React, { useState } from "react"
 const Select = () => {
     const [selectstate, setState] = useState("")
 
+    const handleState = (event) => {
+        setState(event.target.value)
+    }
+
     return (
         <>
             <select name="categorias" id="categorias">
