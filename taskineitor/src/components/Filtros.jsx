@@ -10,17 +10,6 @@ export const Filtros = () => {
                 <div className="contenedor-inputs">
                     From: <input type="date"></input>
                     To: <input type="date" />
-                    <select name="categorias" id="categorias">
-                        <option value="Incompleta">Incompleta</option>
-                        <option value="Completada">Completada</option>
-                    </select>
-                    <select name="estado de tarea" id="categorias">
-                        <option value="Organizacion">Organizacion</option>
-                        <option value="Casa">Casa</option>
-                        <option value="Negocio">Negocio</option>
-                        <option value="Salud">Salud</option>
-                        <option value="Estudios">Estudios</option>
-                    </select>
                 </div>
             </div>
         </>
