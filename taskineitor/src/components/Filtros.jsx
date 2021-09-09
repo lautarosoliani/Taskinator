@@ -1,6 +1,7 @@
 import "./Filtros.css"
 import React from "react"
-import Select from "./sub-components/Select"
+import SelectCategorias from "./sub-components/SelectCategorias"
+import SelectEstadosDeTarea from "./sub-components/SelectEstadosDeTarea"
 
 export const Filtros = () => {
     return (
@@ -11,7 +12,8 @@ export const Filtros = () => {
                 <div className="contenedor-inputs">
                     From: <input type="date"></input>
                     To: <input type="date" />
-                    <Select />
+                    <SelectCategorias />
+                    <SelectEstadosDeTarea />
                 </div>
             </div>
         </>
