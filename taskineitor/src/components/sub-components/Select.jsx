@@ -1,6 +1,8 @@
-import React from "react"
+import React, { useState } from "react"
 
 const Select = () => {
+    const [selectstate, setState] = useState("")
+
     return (
         <>
             <select name="categorias" id="categorias">
